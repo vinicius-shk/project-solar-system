@@ -6,17 +6,19 @@ import MissionCard from './MissionCard';
 class Missions extends React.Component {
   render() {
     return (
-      <div data-testid="missions">
+      <div className="boxContM2">
         <Title headline="Missões" />
-        {missions.map(({ name, year, country, destination }) => (
-          <MissionCard
-            name={ name }
-            year={ year }
-            country={ country }
-            destination={ destination }
-            key={ name }
-          />
-        ))}
+        <div data-testid="missions" className="boxContM">
+          {missions.map(({ name, year, country, destination }) => (
+            <MissionCard
+              name={ name }
+              year={ year }
+              country={ country }
+              destination={ destination }
+              key={ name }
+            />
+          ))}
+        </div>
       </div>
     );
   }
