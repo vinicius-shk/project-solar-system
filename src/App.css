@@ -15,22 +15,18 @@ body {
 .boxContM {
   display: flex;
   flex-flow: row wrap;
-  gap: 20px 50px;
+  gap: 50px 50px;
   justify-content: center;
-}
-
-.boxContM2 {
-  display: flex;
-  flex-flow: column nowrap;
 }
 
 .boxM {
   border: 1px silver solid;
   border-radius: 10px;
-  padding: 0px 20px 0px;
-  font-size: 100%;
   display: flex;
   flex-flow: column nowrap;
+  font-size: 100%;
+  padding: 0px 30px 0px;
+  width: 200px;
 }
 
 img {
