@@ -1,5 +1,10 @@
 * {
   color: rgb(161, 230, 242);
+  box-sizing: border-box;
+}
+
+main {
+  width: 100vw;
 }
 
 body {
@@ -7,9 +12,14 @@ body {
   text-align: center;
 }
 
+.box {
+  width: 100%;
+}
+
 .boxCont {
   display: flex;
-  justify-content: space-around;
+  width: 100%;
+  justify-content: flex-start;
 }
 
 .boxContM {
@@ -31,4 +41,10 @@ body {
 
 img {
   width: 150px;
+}
+
+@media (max-width: 1160px) {
+  .boxCont {
+    overflow: auto;
+  }
 }
