@@ -10,7 +10,6 @@ main {
 body {
   background-image: url("./images/background.png");
   text-align: center;
-  overflow-x: hidden;
 }
 
 .box {
@@ -47,5 +46,8 @@ img {
 @media (max-width: 1160px) {
   .boxCont {
     overflow: auto;
+  }
+  .boxCont::-webkit-scrollbar {
+    display: none;
   }
 }
