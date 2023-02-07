@@ -26,7 +26,3 @@ The application has a navigation bar that allows users to explore information ab
 ## Contributing
 
 If you would like to contribute to this project, please submit a pull request with your proposed changes.
-
-## License
-
-This project is licensed under the MIT License.
