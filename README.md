@@ -2,7 +2,7 @@
 
 This project is a web application that provides information about our space missions to the solar system. The application is built with JavaScript and React, styled with vanilla CSS.
 
-You can check a deployed version of this project <a href="vinicius-shk-project-solar-system.vercel.app" target="_blank">here</a> 
+You can check a deployed version of this project [here](https://vinicius-shk-project-solar-system.vercel.app/)
 
 ## Installation
 
