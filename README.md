@@ -1,6 +1,6 @@
 # Solar System Space Missions
 
-This project is a web application that provides information about our space missions to the solar system. The application is built with JavaScript and React, styled with vanilla CSS.
+This project is a web application that provides information about our space missions to the solar system. The application is built with JavaScript and React, and styled with vanilla CSS.
 
 You can check a deployed version of this project [here](https://vinicius-shk-project-solar-system.vercel.app/)
 
